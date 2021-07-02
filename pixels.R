@@ -3,7 +3,7 @@ library(ggpubr)
 library(tidyverse)
 theme_set(theme_classic(base_size = 15, base_family = "NimbusSan"))
 #449          
-dat <- read.csv('pixel_tx430_graph/449_pixels.csv')
+dat <- read.csv('449_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -12,7 +12,7 @@ a <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 a + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #450
-dat <- read.csv('pixel_tx430_graph/450_pixels.csv')
+dat <- read.csv('450_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -21,7 +21,7 @@ b <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 b + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #451
-dat <- read.csv('pixel_tx430_graph/451_pixels.csv')
+dat <- read.csv('451_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -30,7 +30,7 @@ c <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 c + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #452
-dat <- read.csv('pixel_tx430_graph/452_pixels.csv')
+dat <- read.csv('452_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -39,7 +39,7 @@ d <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 d + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #453
-dat <- read.csv('pixel_tx430_graph/453_pixels.csv')
+dat <- read.csv('453_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -48,7 +48,7 @@ e <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 e + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #454
-dat <- read.csv('pixel_tx430_graph/454_pixels.csv')
+dat <- read.csv('454_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -57,7 +57,7 @@ f <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 f + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #455
-dat <- read.csv('pixel_tx430_graph/455_pixels.csv')
+dat <- read.csv('455_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -66,7 +66,7 @@ g <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 g + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #456
-dat <- read.csv('pixel_tx430_graph/456_pixels.csv')
+dat <- read.csv('456_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -75,7 +75,7 @@ h<- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + g
 h + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #457
-dat <- read.csv('pixel_tx430_graph/457_pixels.csv')
+dat <- read.csv('457_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -84,7 +84,7 @@ i <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 i + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #458
-dat <- read.csv('pixel_tx430_graph/458_pixels.csv')
+dat <- read.csv('458_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -93,7 +93,7 @@ j <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 j + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #459
-dat <- read.csv('pixel_tx430_graph/459_pixels.csv')
+dat <- read.csv('459_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -102,7 +102,7 @@ k <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 k + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #460
-dat <- read.csv('pixel_tx430_graph/460_pixels.csv')
+dat <- read.csv('460_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -111,7 +111,7 @@ l <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 l + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #461
-dat <- read.csv('pixel_tx430_graph/461_pixels.csv')
+dat <- read.csv('461_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -120,7 +120,7 @@ m <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 m + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #462
-dat <- read.csv('pixel_tx430_graph/462_pixels.csv')
+dat <- read.csv('462_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -129,7 +129,7 @@ n <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 n + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #463
-dat <- read.csv('pixel_tx430_graph/463_pixels.csv')
+dat <- read.csv('463_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -138,7 +138,7 @@ o <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 o + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #464
-dat <- read.csv('pixel_tx430_graph/464_pixels.csv')
+dat <- read.csv('464_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -147,7 +147,7 @@ p <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 p + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #465
-dat <- read.csv('pixel_tx430_graph/465_pixels.csv')
+dat <- read.csv('465_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -156,7 +156,7 @@ q <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 q + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #466
-dat <- read.csv('pixel_tx430_graph/466_pixels.csv')
+dat <- read.csv('466_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -165,7 +165,7 @@ r <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 r + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #467
-dat <- read.csv('pixel_tx430_graph/467_pixels.csv')
+dat <- read.csv('467_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -174,7 +174,7 @@ s <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 s + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #468
-dat <- read.csv('pixel_tx430_graph/468_pixels.csv')
+dat <- read.csv('468_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -183,7 +183,7 @@ t <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 t + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #469
-dat <- read.csv('pixel_tx430_graph/469_pixels.csv')
+dat <- read.csv('469_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -192,7 +192,7 @@ u <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 u + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #470
-dat <- read.csv('pixel_tx430_graph/470_pixels.csv')
+dat <- read.csv('470_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -201,7 +201,7 @@ v <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 v + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #471
-dat <- read.csv('pixel_tx430_graph/471_pixels.csv')
+dat <- read.csv('471_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -210,7 +210,7 @@ w <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 w + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #472
-dat <- read.csv('pixel_tx430_graph/472_pixels.csv')
+dat <- read.csv('472_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
@@ -219,7 +219,7 @@ x <- ggplot(datLong, aes(day, value, group=paste(Taxa, name), colour=name), ) + 
 x + theme(axis.text.x = element_text(angle = 90), panel.background = element_rect(fill = "white", colour = "grey50"), legend.position = "bottom", plot.title = element_text(hjust = 0.5))
 
 #473
-dat <- read.csv('pixel_tx430_graph/473_pixels.csv')
+dat <- read.csv('473_pixels.csv')
 dat$day <- as.Date(paste("2021-",dat$day))
 datLong <- dat %>% pivot_longer(cols = c(14,15,18))
 
